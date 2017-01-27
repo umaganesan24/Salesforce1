@@ -17,5 +17,6 @@ public class LoginErrorTest {
 		 driver.findElement(By.xpath(".//*[@id='Login']")).click();
 		 String str = driver.findElement(By.xpath(".//*[@id='error']")).getText();
 		 System.out.println(str);
+		 driver.close();
 	}
 }

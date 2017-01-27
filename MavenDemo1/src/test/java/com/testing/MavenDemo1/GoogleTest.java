@@ -12,6 +12,7 @@ public void testGoogle()
 {
 	WebDriver driver = new FirefoxDriver();
 	driver.get("http://google.com");
+	System.out.println("Hi, Geetha!");
 	
 }
 
